@@ -39,7 +39,5 @@ jobs:
           username:  ${{ secrets.USER }}
           key:  ${{ secrets.KEY }}
           port:  ${{ secrets.PORT }}
-          script: |
-              whoami
-              ls -al
+          script: cd /root/www && npm run deploy && pm2 restart app
             
