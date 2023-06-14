@@ -33,7 +33,7 @@ jobs:
 
     steps:
      - name: SSH deploy
-       uses: easingthemes/ssh-deploy@master
+       uses: appleboy/ssh-action@master
        with:
           host: ${{ secrets.HOST }}
           username:  ${{ secrets.USER }}
