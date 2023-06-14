@@ -33,7 +33,7 @@ jobs:
 
     steps:
      - name: SSH deploy
-       uses: ravitejachikkala/ec2-deployment-2@main
+       uses: ./
        with:
           host: ${{ secrets.HOST }}
           username:  ${{ secrets.USER }}
