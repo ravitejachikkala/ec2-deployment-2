@@ -33,7 +33,7 @@ jobs:
 
     steps:
      - name: SSH deploy
-       uses: easingthemes/ssh-deploy@main
+       uses: easingthemes/ssh-deploy@master
        with:
           host: ${{ secrets.HOST }}
           username:  ${{ secrets.USER }}
