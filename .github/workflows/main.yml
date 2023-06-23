@@ -1,4 +1,4 @@
-name: CICD for Ec2
+name: CICD for Ec2-instance
 
 on:
   push:
