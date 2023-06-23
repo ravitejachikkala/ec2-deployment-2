@@ -39,10 +39,10 @@ jobs:
           username:  ${{ secrets.USER }}
           key:  ${{ secrets.KEY }}
           port:  ${{ secrets.PORT }}
-          TARGET: "/home/ec2-user/ec2-deployment"
+          TARGET: "/home/ubuntu/ec2-deployment"
           script: |
               whoami
-              ls -l
+              ls -al
             
 
             
